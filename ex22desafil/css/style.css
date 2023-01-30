@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+* {
+   margin: 0px;
+   padding: 0px
+}
+
+@font-face {
+   font-family: android;
+   src: url(../fontes/idroid.otf);
+   font-weight: normal;
+}
+
+body {
+   background-color: #84E1AD;
+   text-align: justify;
+   font-size: 1em;
+}
+
+header {
+   background: linear-gradient(to bottom, #2fa866, #053018);
+   height: auto;
+   width: 100%;
+}
+
+header h1 {
+   font-family: 'Roboto', sans-serif;
+   color: white;
+   text-align: center;
+   font-size: 30px;
+   width: auto;
+   padding: 20px 10px;
+}
+
+p {
+   text-indent: 25px;
+   padding: 10px 0px 10px 0px;
+}
+
+header p {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   color: white;
+   text-align: center;
+   padding: 10px 0px 20px 15px;
+}
+
+h1 {
+   color: #3b654e;
+   font-family: android, 'Times New Roman', Times, serif;
+   font-size: 1.8em;
+   padding: 7px;
+   
+}
+
+.art {
+   font-family: android, 'Times New Roman', Times, serif;
+   background: linear-gradient(to left, white, #b5eed1b7);
+   color: #32734E;
+   font-size: 25px;
+}
+
+main {
+   background-color: white;
+   min-width: 300px;
+   max-width: 1000px;
+   margin: auto;
+   padding: 25px;
+   box-shadow: 2px 8px 10px 1px rgba(0, 0, 0, 0.407);
+
+}
+
+nav {
+   background-color: #084323;
+   font-size: 1em;
+   box-shadow: 2px 8px 10px 1px rgba(0, 0, 0, 0.349);
+
+}
+
+nav a {
+   color: white;
+   text-decoration: none;
+   padding: 1px;
+}
+
+nav a:hover {
+  background-color: #0f9b4e;
+   color:#032010 ;
+}
+
+nav li {
+   display: inline-block;
+   font-family: 'Roboto', sans-serif;
+   font-size: 1.2em;
+   margin: 5px;
+   color: white;
+   font-weight: normal;
+}
+
+a {
+   color: rgb(45, 99, 48);
+   font-weight: bold;
+}
+
+.figura {
+    text-align: center;
+}
+
+.figura1 {
+   width: 40%;
+}
+  
+  
+
+div.video {
+   background-color: #053018;
+   margin-bottom: 30px;
+   padding-bottom: 58%;
+   position: relative;
+
+}
+
+div.video >iframe {
+   position: absolute;
+   top: 5%;
+   left: 5%;
+   width: 90%;
+   height: 90%;
+}
+
+
+footer {
+   background-color: #1A5C38;
+   margin-top: -5px;
+   text-align: center;
+   padding: 7px;
+   border-top: 30px;
+}
+
+aside {
+ background-color: #84E1AD;
+ border-bottom-left-radius: 10px ;
+ border-bottom-right-radius: 10px ;
+ padding: 0px 10px 10px 10px;
+ list-style-position: inside;
+ border: 1px solid #053018;
+ box-shadow: 2px 7px 7px rgba(0, 0, 0, 0.303);
+ 
+
+}
+
+aside >h3 {
+   background-color: #084323;
+   padding: 10px;
+   margin: 0px -10px;
+}
+
+aside ul {
+   columns: 2;
+}
+
+div {
+   padding: 10px 10px 0px px;
+   text-indent: 30px;
+   font-weight: bolder;
+}
+
+main a {
+
+   text-decoration: none;
+   padding: 6px 7px;
+}
+strong::after {
+   content: ' 🔗';
+   color: #059345;
+   font-weight: bold;
+}
