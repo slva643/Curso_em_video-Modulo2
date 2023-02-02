@@ -1,5 +1,5 @@
 # Curso_em_video-Modulo2
- Curso de Html- modulo 02
+ Desafil do curso em video do Gustavo Guanabara
 
-<a href="https://slva643.github.io/Curso_em_video-Modulo2/ex22desafil/android-site.html"><button type="button">Excuta</button></a>
+<a href="https://slva643.github.io/Curso_em_video-Modulo2/ex22desafil/android-site.html"><button type="button">Click aqui pra vê o site</button></a>
 
